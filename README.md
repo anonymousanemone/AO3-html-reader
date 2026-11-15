@@ -1,13 +1,8 @@
 # AO3 HTML to EPUB
 
-## Dependencies
+Run these commands from this folder with your Python environment active. No pip packages required. Convert an AO3 downloaded HTML/XHTML file to EPUB with metadata preserved.
 
-- Python 3.8 or newer; only the Python standard library is used. No pip packages are required.
-- Internet access to download externally hosted images (optional; unavailable images become links).
-
-## Usage
-
-Run these commands from this folder with your Python environment active. Convert an AO3 downloaded HTML/XHTML file. Creates `Title - Author.epub` beside the input. 
+To create `Title - Author.epub`: 
 
 ```bash
 python ao3_html_to_epub.py The_Lighthouse_Keeper.html
@@ -47,3 +42,8 @@ Keep `reading.css` in the same folder as your HTML file. In a text editor, paste
 ```
 
 Save the HTML, then double-click it to open it in your browser (or refresh an already open tab). No server or conversion is needed. The stylesheet AO3 stylesheets. 
+
+# Dependencies
+
+- Python 3.8 or newer; only the Python standard library is used. No pip packages are required.
+- Internet access to download externally hosted images (optional; unavailable images become links).
